@@ -5,7 +5,7 @@ from __future__ import print_function
 import base64, json, sys, urllib, zlib
 from Adafruit_Thermal import *
 
-import from urllib2 import urlopen
+from urllib2 import urlopen
 import lxml as lh
 
 
