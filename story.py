@@ -9,7 +9,7 @@ from urllib2 import urlopen
 import lxml as lh
 
 
-url = "http://readpoopfiction.com/story.php?length=2"
+url = "http://readpoopfiction.com/story.php?length=1"
 page = urllib.urlopen(url)
 doc = str(page.read())
 index = doc.find("<p class=\"author\">")
