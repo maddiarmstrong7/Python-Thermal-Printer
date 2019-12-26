@@ -33,7 +33,7 @@ printer      = Adafruit_Thermal("/dev/serial0", 19200, timeout=5)
 # Called when button is briefly tapped.  Invokes story script.
 def tap():
   GPIO.output(ledPin, GPIO.HIGH)  # LED on while working
-  subprocess.call(["python", "printertest.py"])
+  subprocess.call(["python", "story.py"])
   GPIO.output(ledPin, GPIO.LOW)
 
 
