@@ -10,7 +10,7 @@ import lxml as lh
 
 
 url = "http://readpoopfiction.com/story.php?length=1"
-page = urllib.request.urlopen(url)
+page = urllib.urlopen(url)
 doc = str(page.read())
 index = doc.find("<p class=\"author\">")
 doc = doc[index:-1]
