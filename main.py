@@ -29,7 +29,7 @@ dailyFlag    = False # Set after daily trigger occurs
 lastId       = '1'   # State information passed to/from interval script
 printer      = Adafruit_Thermal("/dev/serial0", 19200, timeout=5)
 
-
+# call on story script edit later
 # Called when button is briefly tapped.  Invokes story script.
 def tap():
   GPIO.output(ledPin, GPIO.HIGH)  # LED on while working
