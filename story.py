@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-
+#fix formatting, open link
 from __future__ import print_function
 import base64, json, sys, urllib, zlib
 from Adafruit_Thermal import *
